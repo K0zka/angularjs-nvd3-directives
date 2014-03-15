@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angularjs-nvd3-directives</artifactId>
-    <version>0.0.5-beta-SNAPSHOT</version>
+    <version>0.0.5-beta</version>
     <name>Angular.js Directives for nvd3.js, d3.js charts</name>
     <description>WebJar for Angular.js Directives for nvd3.js, d3.js charts</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/angularjs-nvd3-directives</url>
         <connection>scm:git:https://github.com/webjars/angularjs-nvd3-directives.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angularjs-nvd3-directives.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angularjs-nvd3-directives-0.0.5-beta</tag>
     </scm>
     
     <dependencies>
