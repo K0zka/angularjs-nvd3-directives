@@ -11,10 +11,17 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angularjs-nvd3-directives</artifactId>
-    <version>0.0.6-beta-SNAPSHOT</version>
+    <version>0.0.7-SNAPSHOT</version>
     <name>Angular.js Directives for nvd3.js, d3.js charts</name>
     <description>WebJar for Angular.js Directives for nvd3.js, d3.js charts</description>
     <url>http://webjars.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <upstream.version>0.0.7</upstream.version>
+        <upstream.url>https://raw.github.com/cmaurer/angularjs-nvd3-directives/v${upstream.version}/dist</upstream.url>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+    </properties>
 
     <developers>
         <developer>
@@ -56,13 +63,6 @@
             <version>1.1.15-beta</version>
         </dependency>
     </dependencies>
-    
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.0.5-beta</upstream.version>
-        <upstream.url>https://raw.github.com/cmaurer/angularjs-nvd3-directives/v${upstream.version}/dist</upstream.url>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
-    </properties>
     
     <build>
         <plugins>
