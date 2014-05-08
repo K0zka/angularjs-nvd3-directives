@@ -25,6 +25,9 @@
             {
                 "paths": {
                     "angularjs-nvd3-directives": "angularjs-nvd3-directives"
+                },
+                "shim": {
+                    "angularjs-nvd3-directives": ["angular", "nvd3"]
                 }
             }
         </requirejs>
